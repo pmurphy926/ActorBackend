@@ -8,4 +8,4 @@ class Actor(models.Model):
     age = models.IntegerField()
     knownFor = models.TextField()
     bio = models.TextField()
-    imageURL = models.ImageField()
+    imageURL = models.TextField()
