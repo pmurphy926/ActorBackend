@@ -29,6 +29,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['localhost', 'pacific-hollows-96763.herokuapp.com']
 
+headers: {
+    'Accept': 'application/json',
+    'Content-Type': 'application/json'
+}
 
 # Application definition
 
